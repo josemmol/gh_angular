@@ -1,0 +1,19 @@
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.character-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+}
+
+.character-card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
